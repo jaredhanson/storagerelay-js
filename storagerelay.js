@@ -11,7 +11,7 @@
 }(this, function() {
   
   return function relay(ares, rid, clientID, origin, cb) {
-    var key = [ 'tmp/oauth/r',
+    var key = [ 'tmp/oauth/relay',
                 encodeURIComponent(origin),
                 encodeURIComponent(clientID),
                 encodeURIComponent(rid)
